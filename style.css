@@ -1,0 +1,44 @@
+html {
+       background-color: black;
+}
+
+table {
+        width: 100%;
+        border: 2px;
+        border-style: solid;
+        border-spacing: 4px;
+        background-color: transparent;
+        background-image: url(images/cinemapop.gif);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}
+
+h1 {
+    font-family: serif;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+thead {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+tbody {
+    text-align: center;
+    font-family: cursive;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+}
+
+tbody tr:hover{
+    color: white;
+    background-color: darkblue;
+    cursor: default;
+}
